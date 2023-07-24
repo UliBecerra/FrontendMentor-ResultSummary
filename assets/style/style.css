@@ -1,13 +1,13 @@
 :root{
   /* *Primary */
   --lightRed: hsl(0, 100%, 67%);
-  --lightRedBack: hsl(0, 100%, 67%, 20%);
+  --lightRedBack: hsl(0, 100%, 67%, 10%);
   --orangeyYellow: hsl(39, 100%, 56%);
-  --orangeyYellowBack: hsl(39, 100%, 56%, 20%);
+  --orangeyYellowBack: hsl(39, 100%, 56%, 10%);
  --greenTeal: hsl(166, 100%, 37%);
- --greenTealBack: hsl(166, 100%, 37%, 20%);
+ --greenTealBack: hsl(166, 100%, 37%, 10%);
   --cobaltBlue: hsl(234, 85%, 45%);
-  --cobaltBlueBack: hsl(234, 85%, 45%, 20%);
+  --cobaltBlueBack: hsl(234, 85%, 45%, 10%);
 
   /* *Neutral */
   --white: hsl(0, 0%, 100%);
@@ -110,7 +110,7 @@ body{
   }
   .result-great > h2{
     color: var(--pale-blue);
-    font-weight: 500;
+    font-weight: 800;
     padding: 10px;
   }
   .result-great > p{
@@ -120,7 +120,7 @@ body{
 @media (max-width:375px) {
   body{
     display: block;
-  
+    position: relative;
   }
 
   .content{
